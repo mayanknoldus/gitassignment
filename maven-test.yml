@@ -13,7 +13,8 @@ inputs:
 run:
   path: mvn
   args:
-    - fX
+    - f
+    - X
     - spring-boot-service/pom.xml
     - clean
     - test
