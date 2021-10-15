@@ -8,13 +8,12 @@ image_resource:
     tag: 3.6.0-jdk-8-alpine
 
 inputs:
-  - name: spring-boot-service       # konse input resource pe chlani h command
+  - name: spring-boot-service
 
 run:
-  path: mvn
+  path: "mvn"
   args:
-    - f
-    - X
+    - -f
     - spring-boot-service/pom.xml
     - clean
     - test
