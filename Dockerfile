@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-WORKDIR /helloSpringBoot
+WORKDIR .
 
 EXPOSE 8080
 
